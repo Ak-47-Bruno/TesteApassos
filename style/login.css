@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("imagens/cidade\ 2.jpg");
+    background-size: cover;
+    font-family: "comfortaa", sans-serif;
+}
+
+.login {
+    width: 320px;
+    height: 420px;
+    border: 2px solid #000;
+    border-radius: 80px 0px 80px 0px;
+    color: #fff;
+    background-color: rgba(0, 0, 5, 0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 68px 28px;
+}
+
+
+h1{
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.login input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.login button{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 100%;
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.login button:hover {
+    cursor:pointer;
+    background: #ff4d4d;
+    transition: 0.2s;
+}
+
+.login a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 25%;
+    color: #4b4b4b;
+    transition: 0.2s;
+}
+
+.login a:hover {
+    transition: 0.2s;
+    color: #ff4d4d;
+}
+
+.popup{
+    position: absolute;
+    right: 0;
+    margin: auto;
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+    border: solid 1px;
+    border-radius: 10px;
+    display: none;
+    background: #fff;
+    background-color: rgba(0, 0, 5, 0.8);
+}
+
+.popup p {
+    text-align: center;
+    color: #fff;
+   
+}
+
+.popup button{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 100%;
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.popup button:hover {
+    cursor:pointer;
+    background: #ff4d4d;
+    transition: 0.2s;
+}

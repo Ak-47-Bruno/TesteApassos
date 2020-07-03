@@ -1,0 +1,19 @@
+{
+  "name": "testeapassos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ak-47-Bruno/TesteApassos.git"
+  },
+  "author": "Bruno Bentes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ak-47-Bruno/TesteApassos/issues"
+  },
+  "homepage": "https://github.com/Ak-47-Bruno/TesteApassos#readme"
+}
